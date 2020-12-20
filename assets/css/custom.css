@@ -88,7 +88,7 @@ min-height: 80px;
     margin: 1px 1px 1px 1px;
 }
     .logout-spn a {
-        text-decoration:none;
+        text-decoration: #808080;
     }
 .active-link {
     background-color:#f3f3f3;
