@@ -77,15 +77,15 @@ min-height: 80px;
 
 
 .nav > li > a > i {
-    margin-right:2px;
+    margin-right:50px;
 }
 .logout-spn {
     float:right;
     color:#d9edf7;
     font-size:15px;
     font-weight:800;
-    margin: 15px;
-    margin: 15px 15px 15px 15px;
+    margin: 1px;
+    margin: 20px 21px 20px 21px;
 }
     .logout-spn a {
         text-decoration: #808080;
