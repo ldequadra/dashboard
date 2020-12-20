@@ -81,11 +81,11 @@ min-height: 80px;
 }
 .logout-spn {
     float:right;
-    color:#fff;
+    color:#d9edf7;
     font-size:15px;
     font-weight:800;
     margin:20px;
-    margin: 10px 25px 10px 50px;
+    margin: 10px 25px 10px 10px;
 }
     .logout-spn a {
         text-decoration:none;
