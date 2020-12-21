@@ -12,6 +12,8 @@
     Azul forte: #1A222C
     Cinza clarinho: #f3f3f3
 
+    Open Sans
+
 
 ========================================================  */
 
@@ -21,7 +23,7 @@
 =============================================*/
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     line-height: 30px;
 }
 
