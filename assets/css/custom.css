@@ -13,6 +13,7 @@
     Azul forte: #1A222C
     Cinza clarinho: #f3f3f3
     Cinza mais clarinho: #e1e1e1
+    Vermelho logo: #EB4854
 
     Open Sans
 
@@ -25,7 +26,7 @@
 =============================================*/
 
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 30px;
 }
 
@@ -70,7 +71,7 @@ body {
 .sidebar-collapse > .nav > li > a {
 	padding: 15px 15px;
     color: #1A222C;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
 }
 
@@ -79,22 +80,24 @@ body {
 	border-bottom: 1px solid #e1e1e1;
 }
 
+/* Cor do sombreamento de seleção dos botões */
 .sidebar-collapse .nav > li > a:hover,
 .sidebar-collapse .nav > li > a:focus {
-	
-	background:#F3F3F3;
-	outline:0;
+	background: #F3F3F3;
+	outline: 0;
 }
 
+/* Cor do botão */
 .navbar-side {
-	border:none;
+	border: none;
 	background-color: #fff;
-	
 }
 
+/* Cor do cabeçalho */
 .navbar-inverse {
-background-color: #214761;
-border-color: #F0F0F0;
+background-color: #1A222C;
+border-bottom: -1px;
+border-color: #EB4854;
 min-height: 80px;
 }
 
