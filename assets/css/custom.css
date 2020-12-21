@@ -7,7 +7,14 @@
     100% To use For Personal And Commercial Use.
     IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
    
+
+    PALETA DE CORES
+    Azul forte: #1A222C
+    Cinza clarinho: #f3f3f3
+
+
 ========================================================  */
+
 
 /*==============================================
     GENERAL  STYLES
@@ -15,32 +22,33 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    line-height:30px;
+    line-height: 30px;
 }
 
 #wrapper {
     width: 100%;
-    margin-top:50px;
+    margin-top: 50px;
 }
 
+/* Plano de fundo */
 #page-wrapper {
     padding: 15px 15px;
     min-height: 600px;
-    background:#F3F3F3;
-   
+    background: #f3f3f3;
 }
 
+/* Fundo janela principal */
 #page-inner {
-    width:100%;
-    margin:10px 20px 10px 0px;
-    background-color:#fff!important;
-    padding:10px;
-    min-height:1050px;
+    width: 100%;
+    margin: 10px 20px 10px 0px;
+    background-color: #fff!important;
+    padding: 10px;
+    min-height: 1050px;
 }
 
+/* Espaçamento dos botões de ação */
 .pad-top {
-    padding-top:15px;
+    padding-top: 15px;
 }
 
 
@@ -48,16 +56,18 @@ body {
     MENU STYLES
 =============================================*/
 
+/* Espaçamento botões menu lateral */
 .sidebar-collapse .nav {
-	padding:0;
-    padding-top:50px;
+    padding: 0px;
+    padding-top: 50px;
 }
 
+/* Cor das letras/ícones do menu lateral */
 .sidebar-collapse > .nav > li > a {
-	padding:15px 10px;
-    color: #214761;
-font-weight: 900;
-font-size: 16px;
+	padding: 15px 15px;
+    color: #1A222C;
+    font-weight: 0;
+    font-size: 16px;
 }
 
 .sidebar-collapse > .nav > li {
