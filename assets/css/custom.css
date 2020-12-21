@@ -61,10 +61,23 @@ body {
     MENU STYLES
 =============================================*/
 
+/* Cor do cabeçalho */
+.navbar-inverse {
+    background-color: #1A222C;
+    border-bottom: -1px;
+    border-color: #EB4854;
+    min-height: 80px;
+}
+
 /* Espaçamento botões menu lateral */
 .sidebar-collapse .nav {
     padding: 0px;
     padding-top: 50px;
+}
+
+/* Espaçamento à esquerda dos textos dos botões */
+.nav > li > a > i {
+    margin-right: 10px;
 }
 
 /* Cor das letras/ícones do menu lateral */
@@ -93,33 +106,23 @@ body {
 	background-color: #fff;
 }
 
-/* Cor do cabeçalho */
-.navbar-inverse {
-background-color: #1A222C;
-border-bottom: -1px;
-border-color: #EB4854;
-min-height: 80px;
-}
-
-.nav > li > a > i {
-    margin-right:10px;
-}
-
+/* Botão Exit */
 .logout-spn {
-    float:right;
-    color:#fff;
-    font-size:25px;
-    font-weight:800;
-    margin:20px;
-    margin: 10px 25px 10px 50px;
+    float: right;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 20px;
+    margin: 25px 35px 10px 50px;
 }
 
 .logout-spn a {
-    text-decoration:none;
+    text-decoration: overline;
+    text-decoration-color: #EB4854;
 }
 
 .active-link {
-    background-color:#f3f3f3;
+    background-color: #f3f3f3;
 }
     
 
