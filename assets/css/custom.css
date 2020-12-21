@@ -156,8 +156,8 @@ body {
     background-color: #1A222C;
     width: 100%;
     color: #f3f3f3;
-    padding: 20px 50px 20px 50px;
-    padding-left: 20px;
+    padding: 0px 50px 0px 50px;
+    text-align: center;
 }
 
 .footer > a, .footer>a:hover {
@@ -179,6 +179,6 @@ body {
     .navbar-side {
         z-index: 1;
         position: absolute;
-        width: 260px; 
+        width: 260px;             /* Largura dos botões menu lateral */
     }
 }
