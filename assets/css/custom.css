@@ -151,16 +151,18 @@ body {
     FOOTER STYLES     
 =============================================*/
 
+/* Rodapé */
 .footer {
-    background-color:#214761;
-    width:100%;
-    color:#fff;
-    padding:20px 50px 20px 50px;
-    padding-left:20px;
+    background-color: #1A222C;
+    width: 100%;
+    color: #fff;
+    padding: 20px 50px 20px 50px;
+    padding-left: 20px;
 }
 
+/* Cor do texto do rodapé */
 .footer > a, .footer>a:hover {
-    color:#fff;
+    color: #f3f3f3;
 }
 
 
