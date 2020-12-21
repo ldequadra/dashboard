@@ -69,6 +69,22 @@ body {
     min-height: 80px;
 }
 
+/* Botão Exit */
+.logout-spn {
+    float: right;
+    color: #f3f3f3;
+    font-size: 20px;
+    font-weight: 580;
+    margin: 20px;
+    margin: 25px 35px 10px 50px;
+}
+
+/* Linha superior botão Exit */
+.logout-spn a {
+    text-decoration: overline;
+    text-decoration-color: #EB4854;
+}
+
 /* Espaçamento botões menu lateral */
 .sidebar-collapse .nav {
     padding: 0px;
@@ -93,6 +109,11 @@ body {
 	border-bottom: 1px solid #e1e1e1;
 }
 
+/* Cor do botão selecionado */
+.active-link {
+    background-color: #f3f3f3;
+}
+
 /* Cor do sombreamento de seleção dos botões */
 .sidebar-collapse .nav > li > a:hover,
 .sidebar-collapse .nav > li > a:focus {
@@ -100,29 +121,10 @@ body {
 	outline: 0;
 }
 
-/* Cor do botão */
+/* Cor dos botões menu lateral */
 .navbar-side {
 	border: none;
 	background-color: #fff;
-}
-
-/* Botão Exit */
-.logout-spn {
-    float: right;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 800;
-    margin: 20px;
-    margin: 25px 35px 10px 50px;
-}
-
-.logout-spn a {
-    text-decoration: overline;
-    text-decoration-color: #EB4854;
-}
-
-.active-link {
-    background-color: #f3f3f3;
 }
     
 
