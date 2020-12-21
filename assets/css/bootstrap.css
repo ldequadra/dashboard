@@ -178,7 +178,7 @@ textarea {
   overflow: auto;
 }
 optgroup {
-  font-weight: normal;
+  font-weight: bold;
 }
 table {
   border-spacing: 0;
