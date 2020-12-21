@@ -12,6 +12,7 @@
     
     Azul forte: #1A222C
     Cinza clarinho: #f3f3f3
+    Cinza mais clarinho: #e1e1e1
 
     Open Sans
 
@@ -73,6 +74,7 @@ body {
     font-size: 16px;
 }
 
+/* Contorno (espaçador) entre os botões do menu lateral */
 .sidebar-collapse > .nav > li {
 	border-bottom: 1px solid #e1e1e1;
 }
