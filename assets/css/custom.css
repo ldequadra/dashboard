@@ -61,7 +61,7 @@ body {
     MENU STYLES
 =============================================*/
 
-/* Cor do cabeçalho */
+/* Cabeçalho */
 .navbar-inverse {
     background-color: #1A222C;
     border-bottom: -1px;
@@ -152,15 +152,14 @@ body {
 =============================================*/
 
 /* Rodapé */
-.footer {
+.footer {  
     background-color: #1A222C;
     width: 100%;
-    color: #fff;
+    color: #f3f3f3;
     padding: 20px 50px 20px 50px;
     padding-left: 20px;
 }
 
-/* Cor do texto do rodapé */
 .footer > a, .footer>a:hover {
     color: #f3f3f3;
 }
